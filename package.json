@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-good-start",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "eslint",
+    "prettier",
+    "editorconfig",
+    "sass"
+  ],
+  "description": "A good starting point template to init a configured React app with typescript, eslint, prettier and more for Create React App",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daltonmenezes/cra-template-good-start.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/daltonmenezes/cra-template-good-start/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
