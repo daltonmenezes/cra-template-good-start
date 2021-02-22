@@ -55,6 +55,9 @@ cd my-app
 ## Structure
 ```bash
 .
+├── .editorconfig
+├── .gitignore
+├── .prettierrc
 ├── README.md
 ├── package.json
 ├── node_modules
