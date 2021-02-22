@@ -21,9 +21,19 @@
 </p>
 
 ## Table of Contents
-- [Usage](#usage)
 - [Features](#features)
+- [Usage](#usage)
+- [Structure](#structure)
 - [License](#license)
+
+## Features
+- ⚡ typescript
+- ⚡ eslint
+- ⚡ prettier
+- ⚡ editor config
+- ⚡ sass
+- ⚡ css reset
+- ⚡ absolute imports
 
 ## Usage
 
@@ -42,14 +52,29 @@ Then:
 cd my-app
 ```
 
-## Features
-- ⚡ typescript
-- ⚡ eslint
-- ⚡ prettier
-- ⚡ editor config
-- ⚡ sass
-- ⚡ css reset
-- ⚡ absolute imports
+## Structure
+```bash
+.
+├── README.md
+├── package.json
+├── node_modules
+├── public
+│   └── index.html
+├── src
+│   ├── App.tsx
+│   ├── components
+│   │   └── Hello
+│   │       ├── index.tsx
+│   │       └── styles.module.sass
+│   ├── index.tsx
+│   ├── react-app-env.d.ts
+│   └── styles
+│       ├── colors.sass
+│       ├── global.sass
+│       └── reset.sass
+├── tsconfig.json
+└── yarn.lock
+```
 
 ## License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/cra-template-good-start/blob/main/LICENSE)
