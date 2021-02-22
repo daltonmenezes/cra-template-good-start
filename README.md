@@ -1,7 +1,7 @@
 <p align="center"><a hrf="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react logo" width="40%" /></a></p>
 
 <h1 align="center">cra-template-good-start</h1>
-<p align="center">A good starting point template to init a configured React app with typescript, eslint, prettier and more 💅</p>
+<p align="center">A good starting point template to init a configured React app with typescript, sass, eslint, prettier and more 💅</p>
 
 <p align="center">
   <!-- Patreon -->
