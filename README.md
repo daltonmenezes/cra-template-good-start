@@ -1,7 +1,8 @@
+
 <p align="center"><a hrf="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react logo" width="40%" /></a></p>
 
 <h1 align="center">cra-template-good-start</h1>
-<p align="center">A good starting point template to init a configured React app with typescript, sass, eslint, prettier and more 💅</p>
+<p align="center">A <strong>Create React App</strong> good starting point template to init a configured app with typescript, sass, eslint, prettier and more 💅</p>
 
 <p align="center">
   <!-- Patreon -->
@@ -23,7 +24,10 @@
 ## Table of Contents
 - [Features](#features)
 - [Usage](#usage)
-- [Structure](#structure)
+- [Sneak-peek](#sneak-peek)
+  - [Files and folders](#files-and-folders)
+  - [Tsx code style](#tsx-code-style)
+  - [Sass style](#sass-style)
 - [License](#license)
 
 ## Features
@@ -52,7 +56,9 @@ Then:
 cd my-app
 ```
 
-## Structure
+## Sneak-peek
+
+### Files and folders
 ```bash
 .
 ├── .editorconfig
@@ -77,6 +83,34 @@ cd my-app
 │       └── reset.sass
 ├── tsconfig.json
 └── yarn.lock
+```
+### Tsx code style
+```tsx
+import Hello from 'components/Hello'
+
+function App() {
+  return (
+    <section className="containers">
+      <Hello />
+    </section>
+  )
+}
+
+export default App
+```
+
+### Sass style
+```sass
+@import 'reset'
+@import 'colors'
+
+.containers
+  display: flex
+  flex-flow: column wrap
+  align-items: center
+  justify-content: center
+  padding: 0 2rem
+  background-color: $black
 ```
 
 ## License
