@@ -41,15 +41,17 @@
 
 ## Usage
 
-To use this template, add `--template cra-template-good-start` when creating a new app with **create-react-app**.
+To use this template, add `--template good-start` when creating a new app with **create-react-app**.
+
+> **Note:** if you are using **Windows** make sure to add the equality symbol between --template and good-start. example: **--template=good-start**
 
 For example:
 ```bash
-npx create-react-app my-app --template cra-template-good-start
+npx create-react-app my-app --template good-start
 
 # OR
 
-yarn create react-app my-app --template cra-template-good-start
+yarn create react-app my-app --template good-start
 ```
 Then:
 ```bash
