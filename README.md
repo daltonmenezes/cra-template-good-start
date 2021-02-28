@@ -45,7 +45,6 @@ To use this template, add `--template good-start` when creating a new app with *
 
 > **Note:** if you are using **Windows** make sure to add the equality symbol between --template and good-start. example: **--template=good-start**
 
-For example:
 ```bash
 npx create-react-app my-app --template good-start
 
