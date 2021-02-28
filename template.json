@@ -15,7 +15,7 @@
       "prettier": "^2.2.1",
       "eslint-config-prettier": "^7.2.0",
       "eslint-plugin-prettier": "^3.3.1",
-      "node-sass": "^5.0.0"
+      "sass": "^1.32.8"
     },
     "eslintConfig": {
       "extends": ["react-app", "prettier/@typescript-eslint", "plugin:prettier/recommended"],
