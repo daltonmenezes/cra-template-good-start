@@ -11,7 +11,7 @@
     "editorconfig",
     "sass"
   ],
-  "description": "A good starting point template to init a configured React app with typescript, eslint, prettier and more for Create React App",
+  "description": "A Create React App good starting point template to init a configured app with typescript, sass, eslint, prettier and more",
   "repository": {
     "type": "git",
     "url": "https://github.com/daltonmenezes/cra-template-good-start.git"
