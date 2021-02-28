@@ -28,6 +28,7 @@
   - [Files and folders](#files-and-folders)
   - [Tsx code style](#tsx-code-style)
   - [Sass style](#sass-style)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -35,7 +36,7 @@
 - ⚡ eslint
 - ⚡ prettier
 - ⚡ editor config
-- ⚡ sass
+- ⚡ sass (Dart Sass package compiled to JS)
 - ⚡ css reset
 - ⚡ absolute imports
 
@@ -102,8 +103,8 @@ export default App
 
 ### Sass style
 ```sass
-@import 'reset'
-@import 'colors'
+@use 'reset' as *
+@use 'colors' as *
 
 .containers
   display: flex
@@ -113,6 +114,17 @@ export default App
   padding: 0 2rem
   background-color: $black
 ```
+
+## Contributing
+Contributions are always welcome.
+
+There's a bunch of ways you can contribute to this project, like by:
+- :beetle: Reporting a bug
+- :electric_plug: Sending a Pull request **(ask first, please)**
+- :page_facing_up: Improving this documentation
+- :rotating_light: Sharing this project and recommending it to your friends
+- :dollar: Supporting this project on Patreon
+- :star2: Dropping a star on this repository
 
 ## License
 [MIT © Dalton Menezes](https://github.com/daltonmenezes/cra-template-good-start/blob/main/LICENSE)
